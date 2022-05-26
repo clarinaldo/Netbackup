@@ -1,0 +1,14 @@
+
+Comando para tirar as fitas de backup do antigo banco para o novo
+
+bpmedia.exe -movedb -m allvolumes -oldserver nome_da_media_antiga -newserver nome_da_mnedia_nova
+
+Exemplo:
+
+para mover somente uma fita do antigo nbumedia01 para o novonbumedia03
+
+bpmedia.exe -movedb -m 8254L5-oldserver nbumedia01 -newserver nbumedia03
+
+para mover todo o volume de fitas
+
+bpmedia.exe -movedb -m allvolumes-oldserver nbumedia01 -newserver nbumedia03
